@@ -1,31 +1,46 @@
-first login to the AWS: https://aws.amazon.com/console/
+🛠️ Tech Stack
+Python
+LangChain
+OpenAI API
+Streamlit
+JSON
 
-search about the EC2
+▶️ Local Setup
+1️⃣ Clone the Repository
+git clone https://github.com/dearnidhi/MCQ-Quiz-Generator-Langchain-OpenAI.git
+cd MCQ-Quiz-Generator-Langchain-OpenAI
 
-you need to config the UBUNTU Machine
+2️⃣ Create Virtual Environment
+python -m venv venv
+source venv/bin/activate     # Windows: venv\Scripts\activate
 
-launch the instance
+3️⃣ Install Dependencies
+pip install -r requirements.txt
 
-update the machine:
+4️⃣ Configure OpenAI API Key
+Create a .env file in the root directory:
+OPENAI_API_KEY=your_api_key_here
 
-sudo apt update
+▶️ Run the Application
+streamlit run StreamlitAPP.py
+The app will be available at:
+http://localhost:8501
 
-sudo apt-get update
+☁️ Deployment (AWS EC2 – Optional)
+Launch an Ubuntu EC2 instance
+Update system packages
+sudo apt update && sudo apt upgrade -y
+Install dependencies
+sudo apt install git python3-pip -y
+Clone the repository and install requirements
+Allow inbound traffic on port 8501
+Run Streamlit app
 
-sudo apt upgrade -y
+⚠️ Notes
 
-sudo apt install git curl unzip tar make sudo vim wget -y
+Intended for educational and demo purposes
+Requires a valid OpenAI API key
 
-git clone "Your-repository"
+Output quality depends on prompt design
 
-sudo apt install python3-pip
-
-pip3 install -r requirements.txt
-
-python3 -m streamlit run StreamlitAPP.py
-
-if you want to add openai api key
-create .env file in your server touch .env
-vi .env #press insert #copy your api key and paste it there #press and then :wq and hit enter
-
-go with security and add the inbound rule add the port 8501
+Not optimized for large-scale quiz generation
