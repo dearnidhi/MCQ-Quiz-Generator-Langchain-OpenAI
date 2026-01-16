@@ -8,7 +8,9 @@ JSON
 ▶️ Local Setup 
 
 1️⃣ Clone the Repository
+
 git clone https://github.com/dearnidhi/MCQ-Quiz-Generator-Langchain-OpenAI.git
+
 cd MCQ-Quiz-Generator-Langchain-OpenAI
 
 2️⃣ Create Virtual Environment
