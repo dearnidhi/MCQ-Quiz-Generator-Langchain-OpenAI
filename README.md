@@ -5,7 +5,8 @@ OpenAI API
 Streamlit
 JSON
 
-▶️ Local Setup
+▶️ Local Setup 
+
 1️⃣ Clone the Repository
 git clone https://github.com/dearnidhi/MCQ-Quiz-Generator-Langchain-OpenAI.git
 cd MCQ-Quiz-Generator-Langchain-OpenAI
@@ -40,7 +41,5 @@ Run Streamlit app
 
 Intended for educational and demo purposes
 Requires a valid OpenAI API key
-
 Output quality depends on prompt design
-
 Not optimized for large-scale quiz generation
