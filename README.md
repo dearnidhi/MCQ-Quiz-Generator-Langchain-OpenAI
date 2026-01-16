@@ -1,16 +1,18 @@
-🛠️ Tech Stack
-Python
-LangChain
-OpenAI API
-Streamlit
-JSON
+## 🛠️ Tech Stack
 
-▶️ Local Setup 
+- Python  
+- LangChain  
+- OpenAI API  
+- Streamlit  
+- JSON  
 
-1️⃣ Clone the Repository
+---
 
+## ▶️ Local Setup
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/dearnidhi/MCQ-Quiz-Generator-Langchain-OpenAI.git
-
 cd MCQ-Quiz-Generator-Langchain-OpenAI
 
 2️⃣ Create Virtual Environment
@@ -33,11 +35,13 @@ http://localhost:8501
 Launch an Ubuntu EC2 instance
 Update system packages
 sudo apt update && sudo apt upgrade -y
+
+
 Install dependencies
 sudo apt install git python3-pip -y
 Clone the repository and install requirements
 Allow inbound traffic on port 8501
-Run Streamlit app
+Run the Streamlit app
 
 ⚠️ Notes
 
